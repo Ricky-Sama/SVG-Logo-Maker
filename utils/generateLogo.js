@@ -6,11 +6,11 @@ const circle = require("../lib/circle")
 function generateLogo(data) {
     let shape = undefined
     if (data.shape === 'triangle') {
-        shape = new triangle (data.shape_color, data.input, data.text_color)
+        shape = new triangle (data.shape_color, data.characters, data.text_color)
     } else if (data.shape === 'square') {
-        shape = new square (data.shape_color, data.input, data.text_color)
+        shape = new square (data.shape_color, data.characters, data.text_color)
     } else {
-        shape = new circle (data.shape_color, data.input, data.text_color)
+        shape = new circle (data.shape_color, data.characters, data.text_color)
     }
     return shape.render();
 }
