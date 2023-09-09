@@ -1,7 +1,7 @@
 // Packages needed for this application
-const inquirer = require("inquirer");
-const fs = require("fs");
-const generateLogo = require('./utils/generateLogo')
+const inquirer = require('inquirer');
+const fs = require('fs');
+const generateLogo = require('./utils/generateLogo');
 
 // TODO: Create an array of questions for user input
 const questions = [
