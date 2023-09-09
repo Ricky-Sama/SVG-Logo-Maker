@@ -1,4 +1,4 @@
-const { Square, Triangle, Circle } = require("./shapes.svg.test");
+const { Square, Triangle, Circle } = require("./shapes");
 
 describe("Circle", () => {
   test("should render svg for a green circle element", () => {
