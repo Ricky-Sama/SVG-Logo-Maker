@@ -12,7 +12,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "text-color",
+        name: "text_color",
         message: "TEXT-COLOR: Enter a color keyword (OR a hexadecimal number):",
     },
     {
@@ -23,7 +23,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "shape-color",
+        name: "shape_color",
         message: "SHAPE-COLOR: Enter a color keyword (OR a hexadecimal number):",
     },
    
