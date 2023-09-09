@@ -1,7 +1,7 @@
 // Packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const shapes = require("./utils/shapes.js")
+const generateLogo = require('./utils/generateLogo')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -31,26 +31,27 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, data, (err) => {
-//       if (err) {
-//         console.error('Error writing to file:', err);
-//       } else {
-//         console.log(`${fileName} has been created successfully.`);
-//       }
-//     });
-//   }
 
-// // TODO: Create a function to initialize app
-// function init() {
-//     inquirer
-//       .prompt(questions)
-//       .then((responses) => {
-//         console.log("Creating README.md file...");
-//         writeToFile('./utils/README.md', generateMarkdown({...responses}));
-//       });
-//   }
+function writeToFile(fileName, data) {
+    var content = generateLogo(data);
+    fs.writeFile(fileName, content, function(error) {
+      if (error) {
+        console.log(error);
+      } else {
+        console.log('Generated logo.svg');
+      }
+    });
+  }
 
-// Function call to initialize app
+//function to initialize app
+function init() {
+    inquirer
+      .prompt(questions)
+      .then(function (data) {
+        var fileName = 'logo.svg';
+        writeToFile(fileName, data);
+      });
+  }
+
+//function call to initialize app
 init();
