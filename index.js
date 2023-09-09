@@ -16,10 +16,10 @@ const questions = [
         message: "TEXT-COLOR: Enter a color keyword (OR a hexadecimal number):",
     },
     {
-        type: "input",
+        type: "list",
         name: "shape",
         message: "Choose a shape:",
-        choices: ["Circle", "Square", "Triangle"]
+        choices: ["circle", "square", "triangle"]
     },
     {
         type: "input",
