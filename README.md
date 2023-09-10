@@ -3,7 +3,7 @@
 ![Github license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 
 ## Description
-This SVG Logo Maker was developed using NodeJS, JSON, and Inquirer.
+This SVG Logo Maker was developed using NodeJS, JSON, Jest and Inquirer.
 ## Table of Contents
 * [Usage](#usage)
 * [Contact-Me](#contact)
