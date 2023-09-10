@@ -20,6 +20,9 @@ The following image shows the command-line application's appearance and function
 
 ![screenshot of README](./screenshots/SVGscreenshot.PNG)
 
+## Mock-Up
+![screenshot of logo](./screenshots/127-0-0-1-5500-logo-svg.png)
+
 ## Contact
 * Name - Ricardo Scuotto
 * Email - ucfscuotto@gmail.com
