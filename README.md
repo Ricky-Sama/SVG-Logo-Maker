@@ -33,7 +33,7 @@ N/A
 The application was designed with Jest to run files in the tests folder.
 
 ## Demo
-<a href="https://drive.google.com/file/d/1mtIn_OpXQizsn5ZZrZIhvMgZ4voTaQo5/view">Logo Maker Demonstration</a>
+<a href="https://drive.google.com/file/d/1SJGgbN0uaNNweMph9lHrzOXH_PFUgvAH/view">Logo Maker Demonstration</a>
 ## License
 
         Licensed under the MIT license.
