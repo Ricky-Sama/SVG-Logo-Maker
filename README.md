@@ -3,7 +3,7 @@
 ![Github license](https://img.shields.io/badge/license-MIT-yellowgreen.svg)
 
 ## Description
-This SVG Logo Maker was developed using NodeJS, JSON, and inquirer.
+This SVG Logo Maker was developed using NodeJS, JSON, and Inquirer.
 ## Table of Contents
 * [Usage](#usage)
 * [Contact-Me](#contact)
@@ -14,11 +14,11 @@ This SVG Logo Maker was developed using NodeJS, JSON, and inquirer.
 * [License](#license)
 
 ## Usage
-The user will be able to generate a logo by running NodeJS in the terminal with index.js. They will be prompted with several questions and once completed a logo will be generate
+The user will be able to generate a logo by running NodeJS in the terminal with index.js. They will be prompted with several questions about the design of the logo. Once completed a logo will be generated as "logo.svg." You can also run npm test in the command line to test the code.
 
 The following image shows the command-line application's appearance and functionality:
 
-![screenshot of README](./Develop/images/screenshot-Ricky-Sama-README-Generator.png)
+![screenshot of README](./screenshots/SVGscreenshot.PNG)
 
 ## Contact
 * Name - Ricardo Scuotto
